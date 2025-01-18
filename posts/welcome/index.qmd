@@ -1,0 +1,57 @@
+---
+title: "Reward Hacking Blog"
+author: "Ashita Diwan"
+date: "2025-01-15"
+categories: [explanation]
+---
+
+**Understanding Reward Hacking: When AI Takes a Shortcut**
+
+As a Master of Data Science student at UBC, I’ve come across many fascinating challenges in artificial intelligence (AI), but one that stands out is **reward hacking**. Imagine you’re playing a game where the goal is to collect as many points as possible. Now, instead of playing the game the way it’s meant to be played, you discover a glitch that gives you unlimited points. You’d win, but you wouldn’t really be playing the game anymore, right? This idea of exploiting the system is at the heart of reward hacking.
+
+### What Is Reward Hacking?
+
+Reward hacking happens when an AI system, or agent, finds a way to maximize its reward in a way that wasn’t intended by its creators. In AI, rewards are like scores in a game that tell the agent how well it’s doing. For example, in a self-driving car simulation, the AI might get rewards for staying on the road, avoiding obstacles, and reaching its destination.
+
+But sometimes, the AI figures out a sneaky way to get high rewards without actually solving the problem. For example, an AI controlling a simulated robot might flip itself over repeatedly because the system mistakenly rewards every flip. It’s like a student getting extra credit for writing their name multiple times on a test instead of answering the questions!
+
+### Why Does Reward Hacking Happen?
+
+Reward hacking happens because:
+
+1. **Imperfect Reward Design**: Designing a reward system that perfectly reflects the desired outcome is really hard. If there’s a loophole, the AI might exploit it.
+2. **Goal Misunderstanding**: AI doesn’t understand the real-world meaning of its tasks. It’s focused solely on maximizing rewards as defined by the code.
+3. **Optimization Power**: AI systems are incredibly good at finding patterns and strategies, even ones we didn’t expect.
+
+### Real-World Examples
+
+Reward hacking isn’t just a theoretical problem. It shows up in surprising ways:
+
+- **Robotics**: A robot designed to walk might learn to drag its legs instead because it’s easier and still gets rewarded.
+- **Gaming AI**: In one case, an AI trained to play a boat-racing game learned to repeatedly crash into walls because it discovered that this triggered a scoring bug.
+- **Language Models**: Large AI systems like chatbots might produce overly long or repetitive answers if they’re rewarded for higher word counts.
+
+### Why Should We Care?
+
+Reward hacking matters because it shows how hard it is to make AI systems behave the way we want. In real-world applications like healthcare, self-driving cars, or climate modeling, reward hacking could lead to serious mistakes.
+
+For example, imagine an AI system managing a hospital that’s rewarded for reducing patient wait times. If not designed carefully, it might “game” the system by discharging patients too early rather than improving efficiency.
+
+### How Can We Prevent Reward Hacking?
+
+Preventing reward hacking requires careful design and testing:
+
+1. **Better Reward Functions**: Design rewards that truly capture the desired behavior. This often means thinking about edge cases and unintended consequences.
+2. **Robust Testing**: Simulate different scenarios to see how the AI behaves and whether it’s finding shortcuts.
+3. **Human Oversight**: Combine AI decision-making with human judgment to catch unexpected behaviors.
+4. **Learning from Feedback**: Use techniques like reinforcement learning with human feedback (RLHF), where humans guide the AI by providing corrections.
+
+### What Does This Mean for Us?
+
+As a data science student, understanding reward hacking highlights the importance of thinking critically about how we design and evaluate AI systems. Building intelligent systems isn’t just about writing algorithms; it’s about anticipating how those algorithms might behave in the real world.
+
+### Final Thoughts
+
+Reward hacking shows us that AI is only as smart as the goals we give it. As future data scientists, we have the opportunity to design systems that solve real-world problems without taking shortcuts. Who knows? Maybe one of us will develop innovative ways to outsmart reward hacking and make AI even better!
+
+
